@@ -6,7 +6,7 @@ def bubblesort(lista):
             if lista[j]>lista[j+1]:
                 temp=lista[j]#guardo el casillero que resulto mayor
                 lista[j]=lista[j+1]
-                lista[j+1]=temp#cambia de posicion las casillas
+                lista[j+1]=temp#cambia de posicion las casillas swapea!
     return lista
 
 #TESTER
